@@ -1,4 +1,4 @@
-import { Effect } from "effect"
+import { Context, Effect } from "effect"
 import { Argument, Command, Flag, GlobalFlag } from "effect/unstable/cli"
 import { describe, expect, it } from "tstyche"
 
