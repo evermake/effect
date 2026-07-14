@@ -375,7 +375,7 @@ export type Error<C> = C extends Command<
  * @category utility types
  * @since 4.0.0
  */
-export type Error<C> = C extends Command<
+export type Services<C> = C extends Command<
   infer _Name,
   infer _Input,
   infer _ContextInput,
